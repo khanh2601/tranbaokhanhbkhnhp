@@ -102,10 +102,18 @@
 // }
 
 //Bài 7
-// let userInput1 = prompt("nhap vao chieu dai");
-// let a = Number(userInput1);
-// let userInput2 = prompt("nhap vao chieu rong");
-// let b = Number(userInput2);
+// let M = Number(prompt('Enter M: '));
+// let N = Number(prompt('Enter N: '));
+// let row = '';
+
+// for (let i = 0; i < M; i++) {
+//     for (let j = 0; j < N; j++) {
+//         row += '*';
+//     }
+//     document.write(`${row}<br>`);
+//     console.log(row);
+//     row = '';
+// }
 
 //Bài 8
 // let userInput1 = prompt("nhap vao tong so con");
