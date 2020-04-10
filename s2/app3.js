@@ -85,19 +85,27 @@
 // console.log(tempt);
 
 //Bài 5
-let loop=true;
-let tong=[];
-let i=0;
-while(loop){
-    let a = Number(prompt("nhap vao so bat ky"));
-    if(a<0){
-        loop=false;
-        break;
-    }else if(a>=0){
-        console.log(a);
-        }
-    }
-}
+// let loop=true;
+// let tong=[];
+// let i=0;
+// let result=0;
+// while(loop){
+//     let a = Number(prompt("nhap vao so bat ky"));
+//     if(a<0){
+//         console.log(a)
+//         loop=false;
+//         break;
+//     }else if(a>=0){
+//         result=result + a;
+//         }
+//     }
+// }
+
+//Bài 7
+// let userInput1 = prompt("nhap vao chieu dai");
+// let a = Number(userInput1);
+// let userInput2 = prompt("nhap vao chieu rong");
+// let b = Number(userInput2);
 
 //Bài 8
 // let userInput1 = prompt("nhap vao tong so con");
