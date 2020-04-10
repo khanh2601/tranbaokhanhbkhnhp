@@ -101,6 +101,21 @@
 //     }
 // }
 
+//Bài 6
+// let loop=true;
+// let userInput1 = prompt("nhap vao doan bat ky");
+// for(let i=0; i<(userInput1.length/2); i=i+1){
+//     if(userInput1[userInput1.length-1-i]==userInput1[i]){
+//     }else{
+//         loop=false;
+//         console.log('false');
+//         break;
+//     }
+// }
+// if(loop==true){
+//     console.log('true');
+// }
+
 //Bài 7
 // let M = Number(prompt('Enter M: '));
 // let N = Number(prompt('Enter N: '));
