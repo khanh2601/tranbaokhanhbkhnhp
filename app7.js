@@ -43,6 +43,7 @@
 //             let a = i+1 + "." + " " + shop[i];
 //             console.log(a);
 //         }
+//         alert("Done")
 //     }else if (input1 === 'u'){   
 //         let x = prompt ("Muon update phan tu bao nhieu");
 //         let input3 = prompt("Nhap vao todo list muon update");
@@ -51,6 +52,7 @@
 //             let a = i+1 + "." + " " + shop[i];
 //             console.log(a);
 //         }
+//         alert("Done")
 //     }else if(input1 === 'd'){
 //         let y = prompt ("Muon xoa phan tu bao nhieu");
 //         y = Number (y);
@@ -59,8 +61,10 @@
 //             let a = i+1 + "." + " " + shop[i];
 //             console.log(a);
 //         }
+//         alert("Done")
 //     }else if(input1 === 'e'){
 //         loop=false;
+//         alert("The command is not supported")
 //     }
 // }
 
