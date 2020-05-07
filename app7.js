@@ -95,7 +95,7 @@
 // }
 // console.log(arr);
 // alert(arr)
-// let input2 = prompt("Nhập vào một số");
+// let input2 = Number (prompt("Nhập vào một số"));
 // let a = 0;
 // if (input1.includes(input2)){
 //     for (let i=0; i < arr.length; i++){
@@ -110,19 +110,44 @@
 // }
 
 //Bai8
-let input = prompt("Hello, my name is Phuong Nam and here is my sheep sizes:");
-let arr = input.split(" ");
-let arr1 = [];
-for(let i=0; i<arr.length; i++){
-    arr1.push(Number(arr[i]));
-}
-console.log("Hello, my name is Phuong Nam and here is my sheep sizes:\n" + arr1);
-console.log('Now my biggest sheep has size ' + Math.max(...arr1) + ', Let shave it');
-let big = Math.max(...arr1);
-arr1[arr1.indexOf(big)] = 10;
-console.log(arr1);
-
-
+// let input = prompt("Hello, my name is Phuong Nam and here is my sheep sizes:");
+// console.log("Hello, my name is Phuong Nam and here is my sheep sizes:" )
+// let arr = input.split(" ");
+// let arr1 = [];
+// let arr2 =[];
+// let sum = 0;
+// for(let i=0; i<arr.length; i++){
+//     arr1.push(Number(arr[i]));
+// }    
+// console.log(arr1);
+// let i = 1;
+// let loop = true;
+// while (loop){
+//     let input2 = prompt("Do you want to continue?");    
+//     if (input2 === "Y"){
+//         console.log('Now my biggest sheep has size ' + Math.max(...arr1) + ', Let shave it');
+//         let big = Math.max(...arr1);
+//         arr1[arr1.indexOf(big)] = 8;
+//         console.log("After sheering, here is my flock:");
+//         console.log(...arr1);
+//         console.log("Month" + i);
+//         let map1 = arr1.map(x => x+50);
+//         console.log("One month has, passed, my sheeps have grown, here are their sizes:" );
+//         console.log(...map1);
+//         arr1 = map1;
+//         arr2.push(Number(big-8));
+//         i++;
+//     }else if (input2 === "N"){
+//         loop = false;
+//         console.log(arr2);
+//         for (j=0; j<arr2.length; j++){
+//             sum = sum + Number(arr2[j]);
+//             console.log(arr2[j]);
+//         }
+//         console.log("My flock has size in total " + sum);
+//         console.log("I would get " + sum + "*2$ = " + sum*2);
+//     }
+// }
 //Bai 9
 
 //Bai 10
