@@ -65,13 +65,13 @@
 // }
 
 ////Bai 5+6+7
-let input1 = prompt("Nhập vào dãy số");
-let arr = input1.split(",");
-for (let i = 0; i < arr.length; i++) {
-  arr[i]= Number(arr[i]);
-}
-console.log(arr);
-alert(arr)
+// let input1 = prompt("Nhập vào dãy số");
+// let arr = input1.split(",");
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i]= Number(arr[i]);
+// }
+// console.log(arr);
+// alert(arr)
 //Bai 5
 // let sum = 0;
 // for (let i = 0; i < arr.length; i++) {
@@ -88,6 +88,13 @@ alert(arr)
 //   }
 // alert(`The smallest number is ${sonhonhat}`);
 //Bai 7
+// let input1 = prompt("Nhập vào dãy số");
+// let arr = input1.split(",");
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i]= Number(arr[i]);
+// }
+// console.log(arr);
+// alert(arr)
 // let input2 = prompt("Nhập vào một số");
 // let a = 0;
 // if (input1.includes(input2)){
@@ -102,6 +109,54 @@ alert(arr)
 //     alert(`${input2} is not FOUND in my array`)
 // }
 
-//Bai 8
+//Bai8
+let input = prompt("Hello, my name is Phuong Nam and here is my sheep sizes:");
+let arr = input.split(" ");
+let arr1 = [];
+for(let i=0; i<arr.length; i++){
+    arr1.push(Number(arr[i]));
+}
+console.log("Hello, my name is Phuong Nam and here is my sheep sizes:\n" + arr1);
+console.log('Now my biggest sheep has size ' + Math.max(...arr1) + ', Let shave it');
+let big = Math.max(...arr1);
+arr1[arr1.indexOf(big)] = 10;
+console.log(arr1);
+
+
+//Bai 9
+
+//Bai 10
+// let input1 = prompt("Enter sequence of name");
+// let arr = input1.split(",");
+// let arr1 = []
+// for (let i=0; i < arr.length; i++){
+//     let input2 = "<" + arr[i] + ">";
+//     arr1.push(input2);
+// }
+// console.log(arr1);
+// alert(arr + "=>" + arr1)
+
+//Other method
+// let map1 = arr.map(x => '<' + x + '>');
+// console.log(map1);
+// alert(arr + "=>" + map1)
+
+//Bai 11
+// let input1 = prompt("Enter sequence of number");
+// let arr = input1.split(",");
+// let arr1 = []
+// for (let i=0; i < arr.length; i++){
+//     arr[i] = Number(arr[i]);
+//     if (arr[i]%2 != 0){
+//         arr1.push(arr[i])
+//     }else{     
+//     }
+// }
+// console.log(arr1);
+// alert(arr + "=>" + arr1)
+
+//Other method
+// let odds = arr.filter(x => x % 2 != 0)
+// alert(arr + "=>" + odds)
 
 
