@@ -88,26 +88,20 @@ alert(arr)
 //   }
 // alert(`The smallest number is ${sonhonhat}`);
 //Bai 7
-let input2 = prompt("Nhập vào một số");
-let a = 0;
-if (input1.includes(input2)){
-    for (let i=0; i < arr.length; i++){
-        if (input2 === arr[i]){
-            a = i;
-        }else{
-        }
-    }
-    alert(`${input2} is FOUND in my array at index ${a}`);
-}else{
-    alert(`${input2} is not FOUND in my array`)
-}
+// let input2 = prompt("Nhập vào một số");
+// let a = 0;
+// if (input1.includes(input2)){
+//     for (let i=0; i < arr.length; i++){
+//         if (input2 === arr[i]){
+//             a = i;
+//         }else{
+//         }
+//     }
+//     alert(`${input2} is FOUND in my array at index ${a}`);
+// }else{
+//     alert(`${input2} is not FOUND in my array`)
+// }
 
 //Bai 8
-// let userInput = prompt("Enter a sequence of Number, separated by commas (,)");
-// let arr = userInput.split(",");
-// let sum = 0;
-// for (let i = 0; i < arr.length; i++) {
-//   sum += Number(arr[i]);
-// }
-// alert(`The sum of them is ${sum}`);
+
 
